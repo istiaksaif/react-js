@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "text": "Doctors Appointment",
+      "day": "21 Feb, 2022",
+      "reminder": false
+    },
+    {
+      "id": 2,
+      "text": "Meeting at Afn1",
+      "day": "14 Feb, 2022 at 12:00 pm",
+      "reminder": true
+    },
+    {
+      "text": "Download movie & Watch",
+      "day": "anytime",
+      "reminder": false,
+      "id": 3
+    }
+  ]
+}
