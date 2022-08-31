@@ -1,0 +1,235 @@
+element.style {
+    opacity: 5;
+    transform: translateY(1px);
+}
+.resume-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: -webkit-fit-content;
+    min-height: -moz-fit-content;
+    min-height: fit-content;
+    margin: 120px 0;
+}
+/* .fade-in {
+    opacity: 0;
+    -webkit-transform: translateY(80px);
+    transform: translateY(80px);
+    transition: all .8s ease;
+} */
+
+* {
+    outline: none;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+
+body {
+    margin: 0;
+    overflow-y: overlay;
+    font-family: "Poppins Regular";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+:root {
+    --light-blue: #04c3ff;
+    --light-blue-shadow: rgb(69 211 255/27%);
+    --sea-green: #0abead;
+    --sea-green-dark: #0cbfae;
+    --sea-green-extra-dark: #09bead;
+    --sea-green-shadow: rgba(11,190,173,0.4);
+    --header-hamburger-background: rgba(11,190,173,0.8);
+    --orange: #f57f17;
+    --dark-orange: #ff5823;
+    --orange-shadow: rgba(245,127,23,0.2);
+    --white: #fff;
+    --black: #333;
+    --disabled-btn: rgba(9,190,173,0.47843137254901963);
+    --error-message: rgba(228,79,79,0.8196078431372549);
+    --toast-error: rgba(228,79,79,0.9803921568627451);
+    --toast-shadow: hsla(0,0%,61.2%,0.8901960784313725);
+    --toast-success: #0cbfae;
+    --loader-color: #0cbfae;
+}
+
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 6px!important;
+    height: 6px!important;
+}
+
+body ::-webkit-scrollbar-thumb {
+    background-color: hsla(0,0%,100%,.16);
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0,0,0,.2);
+}
+::-webkit-scrollbar-track {
+    background: hsla(0,0%,100%,.1);
+}
+
+* {
+    outline: none;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    margin: 0;
+    overflow-y: overlay;
+    font-family: "Poppins Regular";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+:root {
+    --light-blue: #04c3ff;
+    --light-blue-shadow: rgb(69 211 255/27%);
+    --sea-green: #0abead;
+    --sea-green-dark: #0cbfae;
+    --sea-green-extra-dark: #09bead;
+    --sea-green-shadow: rgba(11,190,173,0.4);
+    --header-hamburger-background: rgba(11,190,173,0.8);
+    --orange: #f57f17;
+    --dark-orange: #ff5823;
+    --orange-shadow: rgba(245,127,23,0.2);
+    --white: #fff;
+    --black: #333;
+    --disabled-btn: rgba(9,190,173,0.47843137254901963);
+    --error-message: rgba(228,79,79,0.8196078431372549);
+    --toast-error: rgba(228,79,79,0.9803921568627451);
+    --toast-shadow: hsla(0,0%,61.2%,0.8901960784313725);
+    --toast-success: #0cbfae;
+    --loader-color: #0cbfae;
+}
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+::-webkit-scrollbar {
+    width: 6px!important;
+    height: 6px!important;
+}
+body ::-webkit-scrollbar-thumb {
+    background-color: hsla(0,0%,100%,.16);
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0,0,0,.2);
+}
+::-webkit-scrollbar-track {
+    background: hsla(0,0%,100%,.1);
+}

@@ -1,9 +1,15 @@
 import './App.css';
-import "bootstrap/dist/css/bootstrap.min.css";
+import Intro from './components/Intro';
+import About from './components/About';
+import Resume from './components/Resume';
+
 
 function App() {
   return (
-    <h2>Istiak Portfolio</h2>
+    <div>
+      <Intro/>
+      <Resume/>
+    </div>
   );
 }
 
